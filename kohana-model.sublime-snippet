@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+php defined('SYSPATH') or die('No direct script access.');
+
+class Model_${1:'Nome do modelo'} extends ORM{}
+]]></content>
+	<tabTrigger>php</tabTrigger>
+	<scope>source.php</scope>
+	<description>Novo modelo Kohana ORM</description>
+</snippet>

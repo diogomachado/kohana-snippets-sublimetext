@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<?php defined('SYSPATH') or die('No direct script access.');
+
+class Controller_${1:"Nome do controller começando maiusculo"} extends Controller {
+
+	public function action_index()
+	{		
+		\$view = View::factory('${2:"Caminho view"}');
+		\$this->response->body($view);
+	}
+}
+]]></content>
+	<description>Adiciona controller</description>
+</snippet>

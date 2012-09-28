@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+echo Form::open(${1:'action'});?>
+	<?php echo Form::input(${2:'Entrada texto'}); ?>
+	<?php echo Form::password(${3:'Senha'}); ?>
+	<?php echo Form::textarea(${4:'Texto'}); ?>
+<?php echo Form::close();?>
+]]></content>
+	<tabTrigger>echo</tabTrigger>
+	<scope>source.php</scope>
+	<description>Gera um formulário via Helper Kohana</description>
+</snippet>

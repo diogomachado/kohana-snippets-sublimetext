@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<?php defined('SYSPATH') or die('No direct script access.');
+
+class Model_${1: "Nome do modelo no singular"} extends ORM{}
+]]></content>
+	<description>Adiciona modelo orm</description>
+</snippet>
