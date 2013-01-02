@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+public function action_${1:"Nome do método"}()
+{
+	${2:"Código"}
+}
+]]></content>
+	<tabTrigger>publ</tabTrigger>
+	<scope>source.php</scope>
+	<description>Adiciona novo método</description>
+</snippet>
