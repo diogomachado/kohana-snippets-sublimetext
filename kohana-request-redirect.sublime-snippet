@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$this->request->redirect(${1:Url});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>this</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Cria novo redirecionamento</description>
+</snippet>
