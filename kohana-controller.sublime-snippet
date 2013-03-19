@@ -7,9 +7,10 @@ class Controller_${1:"Nome do controller começando maiusculo"} extends Controll
 	public function action_index()
 	{		
 		\$view = View::factory('${2:"Caminho view"}');
-		\$this->response->body($view);
+		\$this->response->body(\$view);
 	}
 }
 ]]></content>
 	<description>Adiciona controller</description>
+	<scope>source.php</scope>
 </snippet>
