@@ -1,16 +1,20 @@
 ### O projeto
 
-A ideia é facilitar a programação de código Kohana no editor SublimeText2
+Snippets para facilitar a codificação em Kohana Framework
+
+### Versão Kohana 
+
+Suporte para versão 3.2.0 da [documentação](http://kohanaframework.org/3.2/guide "documentação")
 
 ### Instalação no Linux
 
-*Acesse o diretório 
-cd /home/usuario/.config/sublime-text-2/Packages/User
+* Clone o projeto onde desejar em sua máquina
 
-* Clone o projeto
+*Acesse o diretório 
+`cd ~/usuario/.config/sublime-text-2/Packages/User`
 
 * Mova todos os arquivos da pasta que irá criar ao clonar para o diretório que você está
-mv /kohana-snippets-sublimetext2/*
+`mv /endereçoAQUI/kohana-snippets-sublimetext2/* ./`
 
 * Pronto!
 
