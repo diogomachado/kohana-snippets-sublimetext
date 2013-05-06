@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<?php defined('SYSPATH') or die('No direct script access.');
+
+return array(
+    '${1:campo}' => array(
+		'${2:regra}'  => '${3:mensagem}',
+	),
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
