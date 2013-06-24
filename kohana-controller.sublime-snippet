@@ -12,5 +12,4 @@ class Controller_${1:"Nome do controller começando maiusculo"} extends Controll
 }
 ]]></content>
 	<description>Adiciona controller</description>
-	<scope>source.php</scope>
 </snippet>

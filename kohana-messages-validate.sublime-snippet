@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+<?php defined('SYSPATH') or die('No direct script access.');
+
+// Arquivo deve ficar em /application/messages/<arquivo>
+// Exclua os campos que não necessita
+
+return array(
+    '${1:Campo}' => array(
+		'not_empty'       => 'Você não inseriu conteudo nenhum',
+		'regex'           => 'Você inseriu conteúdo não válido',
+		'min_length'      => 'O mínimo para este campo é X',
+		'max_length'      => 'O máximo para este campo é X',
+		'exact_length'    => 'Este campo deve ter tamanho exato de X',
+		'email'           => 'Este campo deve ser um e-mail válido',
+		'email_domain'    => 'O domínio deste e-mail não existe',
+		'url'             => 'Campo deve ser uma URL válida',       
+		'ip'              => 'Campo deve ser um IP válido',
+		'phone'           => 'Campo deve ser um número de telefone',
+		'credit_card'     => 'Campo deve ser um número de cartão de crédito válido',
+		'date'            => 'Campo deve ser data',
+		'alpha'           => 'Campo deve conter apenas caracters alpha',
+		'alpha_dash'      => 'Campo deve conter apenas caracters alpha com hifens',
+		'alpha_numeric'   => 'Campo deve conter apenas caracters alpha de números',
+		'digit'           => 'Campo deve ser um dígito inteiro',
+		'decimal'         => 'Campo deve ser um dígito decimal ou float',
+		'numeric'         => 'Campo deve ser numérico',
+		'range'           => 'Campo deve estar em X e Y valores',
+		'color'           => 'Campo deve conter um valor HEX válido',
+		'matches'         => 'Este campo deve ser igual ao campo X',
+
+	),
+);
+]]></content>
+	<description>Mensagens de validação</description>
+</snippet>

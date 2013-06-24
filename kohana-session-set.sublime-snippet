@@ -1,8 +1,7 @@
 <snippet>
 	<content><![CDATA[
-Session::instance()->set('${1:Nome sessão}', '${2:Valor}');
+Session::instance()->set('${1:Campo}', ${2:Valor});
 ]]></content>
 	<tabTrigger>Ses</tabTrigger>
-	<scope>source.php</scope>
-	<description>Set valor em uma sessão</description>
+	<description>Set de uma session</description>
 </snippet>

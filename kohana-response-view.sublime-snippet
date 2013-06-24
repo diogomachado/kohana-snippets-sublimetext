@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->response->body(${1:View});
+]]></content>
+	<tabTrigger>this</tabTrigger>
+	<description>Renderizar view</description>
+</snippet>

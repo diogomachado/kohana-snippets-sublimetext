@@ -7,5 +7,5 @@ public function action_${1:"Nome do método"}()
 ]]></content>
 	<tabTrigger>publ</tabTrigger>
 	<scope>source.php</scope>
-	<description>Adiciona novo método</description>
+	<description>Adiciona nova action</description>
 </snippet>
