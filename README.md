@@ -12,7 +12,7 @@ Snippets para facilitar a codificação em Kohana Framework
 * Redirecionamento
 * Arquivos de configuração messages (para validação não ficar em inglês)
 * Renderização de view
-* Pegar paramêtro da URL via
+* Pegar paramêtro da URL via request->param
 * Setar session
 * Pegar session
 * Criar bootstrap já configurado com pt-br e liberado DATABASE e ORM
