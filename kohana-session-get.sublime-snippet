@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-Session::instance()->get('${1:Nome sessão}', '${2:Valor}');
+Session::instance()->get('${1:Nome sessão}');
 ]]></content>
 	<tabTrigger>Ses</tabTrigger>
 	<description>Get de uma sessão</description>
