@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Session::instance()->delete('${1:Campo}');
+]]></content>
+	<tabTrigger>Ses</tabTrigger>
+	<description>Deleta uma session</description>
+</snippet>
