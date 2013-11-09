@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+echo Debug::vars(${1:Variavel});
+die();
+]]></content>
+	<tabTrigger>echo</tabTrigger>
+	<description>Debugar variavel</description>
+</snippet>
