@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$query = DB::Query(Database::SELECT, \$sql);
+query = DB::Query(Database::SELECT, \$sql);
 ]]></content>
 	<tabTrigger>que</tabTrigger>
 	<description>Cria um objeto query</description>
