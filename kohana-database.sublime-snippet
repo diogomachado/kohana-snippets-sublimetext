@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+<?php defined('SYSPATH') or die('No direct access allowed.');
+
+return array
+(
+	'default' => array
+	(
+		'type'       => 'mysql',
+		'connection' => array(
+			/**
+			 * The following options are available for MySQL:
+			 *
+			 * string   hostname     server hostname, or socket
+			 * string   database     database name
+			 * string   username     database username
+			 * string   password     database password
+			 * boolean  persistent   use persistent connections?
+			 * array    variables    system variables as "key => value" pairs
+			 *
+			 * Ports and sockets may be appended to the hostname.
+			 */
+			'hostname'   => 'localhost',
+			'database'   => '${1: Nome da base}',
+			'username'   => '${2: Usuário}',
+			'password'   => '${3: Senha}',
+			'persistent' => FALSE,
+		),
+		'table_prefix' => '',
+		'charset'      => 'utf8',
+		'caching'      => FALSE,
+		'profiling'    => TRUE,
+	),
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Criar arquivo database</description>
+</snippet>
