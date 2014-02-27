@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Session::instance()->set('msg["titulo"]', '${1:Titulo}');
+Session::instance()->set('msg["texto"]', '${2:Descrição}');
+Session::instance()->set('msg["tipo"]', '${2:Tipo - Se for mensagem comum, escreve comum, senão deixa apenas aspas}');
+]]></content>
+	<tabTrigger>Sess</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+</snippet>

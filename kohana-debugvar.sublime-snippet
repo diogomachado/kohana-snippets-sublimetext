@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Debug::vars(${1:Variavel});
+]]></content>
+	<description>Debug variavel kohana</description>
+	<tabTrigger>De</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

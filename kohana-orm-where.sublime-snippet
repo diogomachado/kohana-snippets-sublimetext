@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+where('${1:Atributo}', '${2:Condição}', '${3:Valor}')		
+]]></content>
+	<description>Cria where ORM</description>
+	<tabTrigger>w</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
