@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+View::factory(${1:Nome da view});
+]]></content>
+	<description>Instancia uma view</description>
+	<tabTrigger>Vie</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
