@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ORM::factory('${1:Modelo}');
+]]></content>
+	<description>ORM factory</description>
+	<tabTrigger>OR</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
