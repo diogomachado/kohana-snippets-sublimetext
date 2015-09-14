@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<?= Form::close() ?>
+]]></content>
+    <tabTrigger>?</tabTrigger>
+	<description>Fechar form Kohana</description>
+</snippet>

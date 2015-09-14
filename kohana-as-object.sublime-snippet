@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-as_object()->execute();
-]]></content>
-	<tabTrigger>as</tabTrigger>
-	<scope>source.php</scope>
-	<description>Retornar obj</description>
-</snippet>

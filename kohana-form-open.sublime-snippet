@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<?= Form::open(${1:'action'}) ?>
+]]></content>
+    <tabTrigger>?</tabTrigger>
+	<description>Abrir form Kohana</description>
+</snippet>
