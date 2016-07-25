@@ -2,7 +2,19 @@
 	<content><![CDATA[
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Model_${1: "Nome do modelo no singular"} extends ORM{}
+class Model_${1: "Nome do modelo no singular"} extends ORM{
+
+    // Overriding the Table name
+    // protected \$_table_name = 'strange_tablename';
+
+    // Changing the primary key
+    // protected \$_primary_key = 'strange_pkey';
+
+    // Use a non-default database
+    // protected \$_db_group = 'alternate';
+
+
+}
 ]]></content>
-	<description>Adiciona modelo orm</description>
+	<description>Adiciona modelo orm (com parametros)</description>
 </snippet>

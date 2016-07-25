@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$obj = ORM::factory('${1:Modelo}');
+\$obj->${2:Parâmetro} = ${3:Valor Parâmetro};
+]]></content>
+    <tabTrigger>\$obj</tabTrigger>
+    <scope>source.php</scope>
+    <description>Cria objeto</description>
+</snippet>
